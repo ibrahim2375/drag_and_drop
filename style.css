@@ -1,0 +1,52 @@
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color: green;
+}
+.fill {
+    background-image: url('./img/example.jpg');
+    position: relative;
+    top: 5px;
+    left: 5px;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+.empty {
+    display: inline-block;
+    width: 160px;
+    height:160px;
+    background-color: white;
+    border:1px dotted green;
+    margin: 20px 30px;
+}
+/* proprties */
+.hold{
+    border:1px dashed rgb(255, 255, 255);
+}
+.invisable{
+    display: none;
+}
+.hover {
+    border:2px dotted green;
+}
+/* another */
+.another {
+    margin-top: 20px;
+    background-color: lightblue;
+}
+.another .container {
+    background-color: gray;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.another .container .dragable {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    margin-top : 10px;
+}
+.dragging {
+    opacity: .4;
+}
